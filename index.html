@@ -64,39 +64,81 @@
   </header>
 
   <main>
-    <!-- banner section carousel -->
-    <div class="relative container mx-auto lg:px-32 mt-14">
-      <!-- carousel start -->
-      <div class="carousel lg:w-full m-2 lg:h-[550px]">
-        <div id="slide1" class="carousel-item relative w-full">
-          <img src="Images/1.png" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" class="btn btn-circle bg-black text-white border-none mt-[100px] ml-[50px] lg:mt-[450px] text-">❮</a>
-            <a href="#slide2" class="btn btn-circle bg-black text-white border-none mt-[100px] mr-[50px] lg:mt-[450px] lg:mr-[1050px]">❯</a>
+    <section>
+      <!-- banner section carousel -->
+      <div class="relative container mx-auto lg:px-32 mt-14">
+        <!-- carousel start -->
+        <div class="carousel lg:w-full m-2 lg:h-[550px]">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3"
+                class="btn btn-circle bg-black text-white border-none mt-[100px] ml-[50px] lg:mt-[450px] text-">❮</a>
+              <a href="#slide2"
+                class="btn btn-circle bg-black text-white border-none mt-[100px] mr-[50px] lg:mt-[450px] lg:mr-[1050px]">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="Images/3.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle bg-black text-white border-none lg:mt-[450px]">❮</a>
+              <a href="#slide3" class="btn btn-circle bg-black text-white border-none lg:mt-[450px] mr-[1100px]">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="Images/4.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle bg-black text-white border-none lg:mt-[450px]">❮</a>
+              <a href="#slide1" class="btn btn-circle bg-black text-white border-none lg:mt-[450px] mr-[1100px]">❯</a>
+            </div>
           </div>
         </div>
-        <div id="slide2" class="carousel-item relative w-full">
-          <img src="Images/3.png" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle bg-black text-white border-none lg:mt-[450px]">❮</a>
-            <a href="#slide3" class="btn btn-circle bg-black text-white border-none lg:mt-[450px] mr-[1100px]">❯</a>
-          </div>
-        </div>
-        <div id="slide3" class="carousel-item relative w-full">
-          <img src="Images/4.png" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle bg-black text-white border-none lg:mt-[450px]">❮</a>
-            <a href="#slide1" class="btn btn-circle bg-black text-white border-none lg:mt-[450px] mr-[1100px]">❯</a>
-          </div>
+        <!-- carousel end -->
+        <!-- banner box content -->
+        <div class="lg:absolute lg:right-[170px] lg:top-[340px] rounded-2xl bg-black m-2 p-3 lg:p-8 lg:w-[500px]">
+          <h2 class="font-extrabold text-[18px] lg:text-2xl text-white">Meet all the heroes from the field</h2>
+          <p class="font-medium leading-6 font-semibold text-[#ffffff99]">Meet our star forward, Alex Johnson, also
+            known as the "Ice Sniper." Johnson showcased his incredible skills in the season opener.</p>
         </div>
       </div>
-      <!-- carousel end -->
-      <!-- banner box content -->
-      <div class="absolute lg:right-[170px] lg:top-[340px] rounded-2xl bg-black m-2 p-3 lg:p-8 lg:w-[500px]">
-        <h2 class="font-extrabold text-[18px] lg:text-2xl text-white">Meet all the heroes from the field</h2>
-        <p class="font-medium leading-6 font-semibold text-[#ffffff99]">Meet our star forward, Alex Johnson, also known as the "Ice Sniper." Johnson showcased his incredible skills in the season opener.</p>
+    </section>
+    <!-- Banner Section End -->
+
+    <section class="mx-2">
+      <!-- Professional Hockeys Club Section Start -->
+      <div class="mt-16 lg:mt-32">
+        <h2 class="lg:text-4xl text-xl text-center font-extrabold">Professional Hockeys Club</h2>
+        <p class="lg:w-[600px] w-[290px] mt-6 mx-auto text-[16px] text-center text-[#13131899]">Experience the thrill, the skill, and the legacy of ProHockey Club – where every game is a testament to the pursuit of greatness on the ice.</p>
       </div>
-    </div>
+      <!-- progress container section -->
+      <div class="lg:mx-44 mt-6 lg:mt-20 gap-8 flex flex-col lg:flex-row">
+         <!-- Progress 1 -->
+        <div class="text-center">
+          <div class="radial-progress text-red-500 text-primary" style="--value:87;" role="progressbar">87%</div>
+          <h2 class="font-semibold text-xl py-4">Player Facility</h2>
+          <p class="w-[250px] mx-auto text-center text-[#13131899]">Get to know the formidable players who make up our roster.</p>
+        </div>
+         <!-- Progress 2 -->
+        <div class="text-center">
+          <div class="radial-progress text-[#49D293] text-primary" style="--value:95;" role="progressbar">95%</div>
+          <h2 class="font-semibold text-xl py-4">Experienced Coach</h2>
+          <p class="w-[250px] mx-auto text-center text-[#13131899]">Behind every successful team is a group of brilliant minds.</p>
+        </div>
+         <!-- Progress 3 -->
+        <div class="text-center">
+          <div class="radial-progress text-[#FFB546] text-primary" style="--value:95;" role="progressbar">95%</div>
+          <h2 class="font-semibold text-xl py-4">The Thunderbolts</h2>
+          <p class="w-[250px] mx-auto text-center text-[#13131899]">Led by Captain Arittro, are gearing up for a redemption season after a close defeat in the opener.</p>
+        </div>
+         <!-- Progress 4 -->
+        <div class="text-center">
+          <div class="radial-progress text-[#4C8DF1] text-primary" style="--value:80;" role="progressbar">80%</div>
+          <h2 class="font-semibold text-xl py-4">The Icebreakers</h2>
+          <p class="w-[250px] mx-auto text-center text-[#13131899]">Under the leadership of Coach Mike Anderson, are riding high on their season opener success.</p>
+        </div>
+      </div>
+      <!-- Professional Hockeys Club Section End -->
+    </section>
   </main>
   <footer>
 
